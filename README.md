@@ -23,6 +23,7 @@ Model is deployed using Flask framework which you can find inside Flask folder o
 
 ## Pre Trained Models ##
 In Models folder you can find Generator model trained upto **30000 epochs** and for Discriminator follow belowed link
-Discriminator : https://drive.google.com/file/d/1apVR3DH3PqieWWqpIHu7mg5dvu-6t4BR/view?usp=sharing
+* Discriminator : https://drive.google.com/file/d/1apVR3DH3PqieWWqpIHu7mg5dvu-6t4BR/view?usp=sharing
+* Generator : https://drive.google.com/file/d/1BXoeRCByfSSTySRh5pICfLhBSlJ9Q1Fw/view?usp=sharing
 
 you can trin it further to get better accuracy.
