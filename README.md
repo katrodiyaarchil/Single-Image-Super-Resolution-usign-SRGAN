@@ -22,4 +22,7 @@ CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset 
 Model is deployed using Flask framework which you can find inside Flask folder of the Repo.
 
 ## Pre Trained Models ##
-In Models folder you can find Generator and Discriminator model trained upto **30000 epochs** you can trin it further to get better accuracy.
+In Models folder you can find Generator model trained upto **30000 epochs** and for Discriminator follow belowed link
+Discriminator : https://drive.google.com/file/d/1apVR3DH3PqieWWqpIHu7mg5dvu-6t4BR/view?usp=sharing
+
+you can trin it further to get better accuracy.
