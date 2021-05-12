@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width:device-widh">
+	<title>Resolute</title>
+
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=1c4MrmUD34txlSflZqQSBJXiAtqzMXWqmV67x3ypsC3X3TrdQVgOex1Dqaq23zypo6Yi5TxBOT5TWqng0Z6gFsUpYunL-rHRqeSNja0KnvycybqoR89V2zNO6m48YRLKxURmd7kGtBjTB4tTLAVnKSwKjNfvi6gI2k8KtfcZkt4P6TnRoEFAwS_Jh9-W7pIrs3On-RCOphK0-26eBcsVodz_-cGLwOL-q72FeVVqiCdgstGNw0um10VHGFF48la2F_-t6MTWlc-zfgubgxL9MEf6aJXEn1DliSZIqDCmk1e5IAI4kDNwyA3yrCdFzx-Nvmoz9l4avZhAvsDEEEv_oaExzIL0q5Sh0LqrWX0Rx6j-MzHxkq0J6LyuqSdv6gyWxFSypEKBSmCmXOFMFelOrzS0IhnkpdswwLFOAElgwRX6qBe6AIQwAJrbtk_3-PsuApuEWIWKQHFpmlvV7BpW2jEHXP8IOKDpzEl6cCOgLpPhINhurEfNPgs9xIAosWlI5HrWIkzvUr6eKacGYI2r4EVhvdQPcuQ6nOx6i9OyFvR7TmFlgecxsYc0M1VpZAZ9jV3nvicmFLf5rFYSUAyN5FtLU1OLD4ZdBwR82E-OWKSVrVYnrhzWRXUwUXvEXaffKsR6OBwWW0NOmI-nZb6OW_VFVYPCK2jvBbIeaAA-jh4-_nMzfuLrsJ0fGJj-bSrVhYExZODcAZeqxwgNSZd-IKUT0oEVMkTiW1NaP3UbGXp3j-Wm2gqXFn6Slf7QNus9nHkxFq4qPC6drYEFJFTUZ4EbREeYfhiMA0pbvkmxu5cncw59nq5DIR_-3mhIVG6xTmMhnqC3B_6IKJQYUZCkL6ecl5z2MC5DkVSQ0mnFDRCbCUrosLL6T896GJY0Q851mG8MIM_AtUQCkxmARLfmFoCt6y0lMoS7D8y2UVxsNnqFBYXj8gxNj1QxRhgcYaA4eKPtQ6BFw6uNhcGiRfkwm3mVgSb21AthJX-qpy5oHUxqayq1wY9qk2_miMW-Lkoox4CMkjLrLNRFHU5pNPwYOsWKu4k4g_Ta5k-eHbBpkVuYMYUSe0YXxalLeH_b5akDCy3CsAss0Ydc5yRGoXLK4CoWYfEVQCi0J5zNyYalAsdKKXplJON08vS42z6ciUn2mvamKQWWcGakrFDPV_WM-Ncau5PSXXWX1GH2vPD-zhJOOtGrh2l9Qc8qq6kFC5ULQdDvCmeQyxpe8TogW0Be1A" nonce="39802198fec11937d4e20a854c599944" charset="UTF-8"></script><style type="text/css">
+		.button{
+	background-color: #00E1D9;
+	color: #5E001F; /* Green */
+  border: none;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 20px;
+}
+.button:hover{
+	background-color: #210070;
+	color: #FFFFFF;
+}
+
+		
+		button{
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+body{
+		background-color: rgb(230,230,250);
+
+	}
+button:hover{
+	background-color: lightgrey;
+	color: black;
+}
+	</style>
+</head>
+<body>
+
+	
+	<center>
+	<table>
+		<tr>
+			<td><h1 class="button">Low Resolution</h1></td>
+			<td></td>
+			<td></td>
+			<td><h1 class="button">High Resolution</h1></td>
+		</tr>
+		<tr>
+			<td><img src="data:image/jpeg;base64,{{ low_img_data }}" height="256px" width="256px" alt="No Image Found" /></td>
+			<td><h3>&emsp;&emsp;&emsp;</h3></td>
+			<td><h3>&emsp;&emsp;&emsp;</h3></td>
+			<td><img src="data:image/jpeg;base64,{{ high_img_data }}" alt="No Image Found" /></td>
+		</tr>
+		<tr><td></td></tr>
+		<tr><td><br><br><br></td></tr>
+
+		<tr>
+			<td colspan="2"><center><a href ="/cancel/{{ location }}"> <button><i class="fa fa-arrow-circle-left"></i></button></a></center></td>
+
+			<td colspan="2"><center><a href ="/download/{{ location }}"> <button><i class="fa fa-download" aria-hidden="true"></i></button></a></center></td>
+		</tr>
+	</table>
+	</center>
+</body>
+</html>

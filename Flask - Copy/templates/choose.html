@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Resolute</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=8bbzWo5x5HMhKiEwUoKBuPSfmCqUyDNy3XiJ1KvUmPH0EFsWcm0z_UhEeM2R_OWnHvsxzbBavZ_HPfZ1Fx67UYPcxt5ax5lC5MXLZt1zX83bw873kPdImuS7cQU7eRZ-g8uIP25D0tpMvqdyUN2Y33ISIglK8K4TMrcPba-iun0u4CQ3t6OzBNMsR087UVD0MlnD-ytQ1m-QV1HV84Lg1vuCmBGSX0FIHlghUFG31vquOruGWMgg5XSFQaTxGBzotIOUk5CKkfy6Ob1gH6YV5sogGaaqLUeYggOx7X8ioT9tqMxLnFQ5cshgMoZiTHaZg0b-jnMhLTnAisFtHI8J_raVTu_I5Z6BR5ozmunOmaAIwQxXd63B2_-6tymzmo7hB2Ke4Jw_uYXce6azlYqzVfLNrSjKK_oP8W0dZwTY8Djs5UOUSwWCsnuUDRvzKAxBxss_ovFf3gYq5vjRlBU-Ag2Q2qVhgni0wzqA3uOQimCUswMNJlK851WxHpab2aRDPtnkCcSKZO6f9tgWGMWY3_v4VCynvXdNgJNJlUj-iaPeD6ZUYSxStVOjbrO6paPQR8yoNuLiOJrb038uwSPBfHlnZcWyBeV4bLJv2t2raBQbg3SH6soHcmIAdjbXsmi7ujlWmwq0RPysVEGsEXNot-nwn1w0IqsTKDDGX_XYJiGmGay0SO-use44p1VTnka4sDXbosoQbKdzeXuX6x2fqLlKmuBMQFZTMqaqeQJnvC2OFgXkhjRePjQ3fHl0SjdXK--FvFbQveOzoKf8hBtm56B7pglb_YjLkLAR9iuLOgY3Vpkx--4pzmnHvmUv0lUocUrXllQnsHQqd4BgIFB_z1CcC3Akv3wXCnP9NUkkVOJ7XGhlH7JyHBjEJXzHX_Lk6y3nKcop4KVdFmMf8g1UmnXhHtbCI-Z1PE1P4YNCzBJZfM0m3yHpuMoNjdZVxKRfKoA1ahAASIBMXigTeKeZedxO2d0-saVSE0KnXjLRmIR5zgxop2xWaRv6j_L4QI1YLcBzIg_svrPtrELsS5VbZEFkIKfWl2NQL2d4O9sQBWFm1givXr2BWGPJj9japi231fUp8VnmIxVw4MNcWufHeoIqwbU7hIkIfszlV02hQpYlZwemDBJLgVlbmfCPMCIe2X35diZ5kiOVkK_bkKWidNVDX-lPM0cnO4aO6HH60WA12fZxYS7Les70R9LHLvSvVPAmkyHrNwVmR45aoecNlg" nonce="c4516875a4906abd421333905f19c360" charset="UTF-8"></script>
+<style type="text/css">
+	h1{
+		font-size: 100px;
+	}
+	html {
+  height: 100%;
+}
+
+body {
+  background-color: #7FDBFF;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .file-upload {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #FFFFFF;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #7FDBFF 50%, #FFFFFF 50%);
+  background-size: 100% 200%;
+  transition: all 1s;
+  color: #FFFFFF;
+  font-size: 100px;
+}
+.wrapper .file-upload input[type=file] {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.wrapper .file-upload:hover {
+  background-position: 0 -100%;
+  color: #2590EB;
+}
+
+button{
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+button:hover{
+	background-color: lightgrey;
+	color: black;
+}
+.button{
+	background-color: #AAAAAA; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 20px;
+}
+.button:hover{
+	background-color: lightgrey;
+	color: black;
+}
+
+</style>
+</head>
+<body>
+	<center>
+	<h1 style="color: #;" class="button">Super Resolution</h1>
+	<form action="/" method="post" enctype="multipart/form-data">
+		
+	<div class="wrapper">
+  	<div class="file-upload">
+    <input type="file" name="image" />
+    <i class="fa fa-arrow-up"></i>
+  	</div>
+  </div>
+  	<br>
+  	<br>
+  	<button type="submit">Resolute</button>
+		
+</form>
+</center>
+</body>
+</html>
